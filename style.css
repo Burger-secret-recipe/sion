@@ -1,0 +1,52 @@
+p {
+    font-size: 20px;
+    color:red;
+}
+
+p, ul, ol {
+    color: green;
+}
+
+.standout
+{
+    color: blue;
+
+}
+
+h2.standout
+{
+    color: red;
+}
+
+.standout, .bold_text
+{
+    color: red;
+}
+
+P[align]
+{
+    color: red;
+}
+
+P[align="center"]
+{
+    color: blue;
+}
+
+.image1:hover{
+    transform: translate(30px,30px);
+}
+
+.image2:hover{
+    border-radius: 20px;
+    opacity: 0.6;
+    transform: rotate(45deg);
+}
+.image3:hover{
+    filter: grayscale();
+    transform: scale(0.5);
+}
+.image4:hover{
+    filter: blur(4px);
+    transform: skew(50deg, -15deg);
+}
